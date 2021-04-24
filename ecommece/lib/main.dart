@@ -15,10 +15,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(
           Theme.of(context).textTheme
-        )
+        ),
+        accentColor: Color(0xFFFF1E00)
       ),
       home: Landing()
     );
   }
 }
+
+// 07
 
